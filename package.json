@@ -1,6 +1,6 @@
 {
   "name": "@xionhub/fsd-prettier",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "feature-sliced-design helper library",
   "scripts": {
     "build": " npm run clean && npm run build:tsc ",
