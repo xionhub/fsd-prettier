@@ -1,5 +1,6 @@
+/** @type {import("prettier").Config} */
 module.exports = {
-  plugins: [require("@trivago/prettier-plugin-sort-imports")],
+  plugins: [require.resolve("@trivago/prettier-plugin-sort-imports")],
   importOrder: [
     "<THIRD_PARTY_MODULES>",
     "^[@/]",

@@ -25,6 +25,7 @@
     "prettier",
     "feature-sliced-design"
   ],
+  "type": "commonjs",
   "author": "XionWCFM",
   "license": "ISC",
   "devDependencies": {
