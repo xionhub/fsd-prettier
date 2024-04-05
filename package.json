@@ -15,12 +15,6 @@
   "files": [
     "./src/*"
   ],
-  "exports": {
-    ".": {
-      "default": "./src/index.js",
-      "require": "./src/index.js"
-    }
-  },
   "keywords": [
     "prettier",
     "feature-sliced-design"
