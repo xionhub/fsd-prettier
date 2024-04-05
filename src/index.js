@@ -6,6 +6,7 @@ module.exports = {
     "^[@/]",
 
     "^~/app/(.*)$",
+    "^~/processes/(.*)$",
     "^~/page/(.*)$",
     "^~/widget/(.*)$",
     "^~/feature/(.*)$",
