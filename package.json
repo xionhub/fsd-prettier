@@ -1,0 +1,43 @@
+{
+  "name": "@xionhub/fsd-prettier",
+  "version": "0.0.2",
+  "description": "feature-sliced-design helper library",
+  "scripts": {
+    "build": " npm run clean && npm run build:tsc ",
+    "build:tsc": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xionhub/fsd-prettier.git"
+  },
+  "files": [
+    "./src/*"
+  ],
+  "exports": {
+    ".": {
+      "default": "./src/index.js",
+      "require": "./src/index.js"
+    }
+  },
+  "keywords": [
+    "prettier",
+    "feature-sliced-design"
+  ],
+  "author": "XionWCFM",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.0.0",
+    "@trivago/prettier-plugin-sort-imports": ">=2.0.0"
+  }
+}
