@@ -7,9 +7,9 @@ module.exports = {
 
     "^~/app/(.*)$",
     "^~/processes/(.*)$",
-    "^~/page/(.*)$",
-    "^~/widget/(.*)$",
-    "^~/feature/(.*)$",
+    "^~/pages/(.*)$",
+    "^~/widgets/(.*)$",
+    "^~/features/(.*)$",
     "^~/entities/(.*)$",
     "^~/shared/(.*)$",
     "^~/(.*)$",
