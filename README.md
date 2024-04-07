@@ -78,9 +78,12 @@ Create the following in the root of your project:
 
 .prettierrc.js
 
-```
+```js
+{
   ...require("@xionhub/fsd-prettier"),
   //...and your personal settings
+}
+
 ```
 
 @xionhub/fsd-prettier depends on the path alias.
