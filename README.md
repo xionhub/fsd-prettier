@@ -2,6 +2,8 @@
 
 Beautifully changes the import configuration of a project configured with Feature-Sliced-Design.
 
+You can refer to actual example projects applying this library at [@xionhub/fsd-example repository](https://github.com/xionhub/fsd-example).
+
 ## Overview
 
 @xionhub/fsd-prettier follows feature slice design rules and formats all imports in the same order as the mental model of the feature slice design.
