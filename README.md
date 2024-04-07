@@ -1,12 +1,12 @@
 # @xionhub/fsd-prettier
 
-Beautifully changes the import configuration of a project configured with Feature-Sliced-Design.
+Beautifully changes the import configuration of a project configured with Feature-Sliced Design
 
 You can refer to actual example projects applying this library at [@xionhub/fsd-example repository](https://github.com/xionhub/fsd-example).
 
 ## Overview
 
-@xionhub/fsd-prettier follows feature slice design rules and formats all imports in the same order as the mental model of the feature slice design.
+@xionhub/fsd-prettier follows Feature-Sliced Design rules and formats all imports in the same order as the mental model of the Feature-Sliced Design.
 
 ### **example:**
 
@@ -103,7 +103,7 @@ BaseUrl should be based on where your src folder is located (usually ".")
 
 @xionhub/fsd-prettier may seem violent, but it assumes that your project's fsd structure will exist in the src folder.
 
-@xionhub/fsd-prettier expects the structure of your feature-sliced-design project to look like this:
+@xionhub/fsd-prettier expects the structure of your Feature-Sliced Design project to look like this:
 
 Modify the project structure as follows, or if you don't like it, refer to the **Advanced Guide** and create your own customization rules.
 
