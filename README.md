@@ -137,9 +137,7 @@ src
 
 ### PnP Guide
 
-I really like yarn berry's PnP feature.
-
-However, PnP often does not resolve the path of a shared configuration library such as @xionhub/fsd-prettier well.
+PnP often does not resolve the path of a shared configuration library such as @xionhub/fsd-prettier well.
 
 If you are using PnP functionality in your project, please follow these instructions:
 
